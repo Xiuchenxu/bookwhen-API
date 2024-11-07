@@ -10,4 +10,5 @@ There is the additional API interaction with chatGPT that generates captions for
 - Generates social media captions in both English and Chinese, by interacting with ChatGPT via API.
 
 
-
+## Usage
+Please fill out your API tokens for Bookwhen and ChatGPT inside the code then run the application.
