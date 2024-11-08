@@ -3,7 +3,7 @@ from requests.auth import HTTPBasicAuth
 from datetime import datetime
 
 url = "https://api.bookwhen.com/v2/events"
-api_key = "" #Enter API code here
+api_key = "" #Enter API token here
 
 response = requests.get(url, auth=HTTPBasicAuth(api_key, ''))
 
