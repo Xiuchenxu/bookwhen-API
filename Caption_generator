@@ -24,7 +24,7 @@ for event in data['data']:
 print(event_details)
 
 airesponse = client.chat.completions.create(
-  model="gpt-3.5-turbo",
+  model="gpt-3.5-turbo", #Feel free to change. We use gpt 3.5 because it is cheaper.
   messages=[
     {
       "role": "system",
@@ -36,7 +36,7 @@ airesponse = client.chat.completions.create(
     }
   ],
   temperature=0.7,
-  max_tokens=200,
+  max_tokens=200, #Increase this number if there are a lot of classes
   top_p=1
 )
 
