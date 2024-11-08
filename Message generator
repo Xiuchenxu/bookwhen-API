@@ -34,7 +34,7 @@ if response.status_code == 200:
     print(formatted_events)
 
 
-    formatted_events +=  "\n\nThis week's timetable 👀🥵\n\n"
+    formatted_events +=  "\n\nThis week's timetable 👀\n\n"
     
     for event in data['data']:
         title = event['attributes']['title']
