@@ -6,9 +6,10 @@ This project leverages bookwhen's API to pull event data from Bookwhen, the Data
 There is the additional API interaction with chatGPT that generates captions for social media platforms like Instagram, Twitter, and Facebook. 
 
 ## Features
-- Scrapes event data from Bookwhen using API and generates structured message in English and Chinese that could be sent on WeChat and WhatsApp. Message Generation App
+- Scrapes event data from Bookwhen using API and generates structured message in English and Chinese that could be sent on WeChat and WhatsApp. Message Generation App.
 - Generates social media captions in both English and Chinese, by interacting with ChatGPT via API.
 
 
 ## Usage
 Please fill out your API tokens for Bookwhen and ChatGPT inside the code then run the application.
+Message generation and Social media caption generation are located in two seperate .py files.
